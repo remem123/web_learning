@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Daddy Uploader</title>
+    <link rel="stylesheet" href="./css/first_style.css">
+    
+</head>
+<body>
+    <div class="box1">
+        <blockquote>
+            <h1>
+                <strong>Big Daddy</strong>
+            </h1>
+            <p>Uploader</p>
+        </blockquote>
+
+    </div>
+    <div class="box2">
+        <blockquote>
+            <p>大宝贝助手<p>
+        </blockquote>
+    </div>
+    <div class="box3">
+        <p>选择要上传的文件</p>
+        <button type="button" class="button1" onclick="upload.click()">选择文件</button>
+        <input type="file" multiple name="upload" id="upload" />
+    </div>
+    <div class="box4">
+        <form action="upload.php" method="post">
+            <input type="submit" class="button2" value="上传文件" style="text-align: center;"/>
+        </form>
+    </div>
+    
+</body>
+</html>

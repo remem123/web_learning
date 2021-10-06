@@ -1,0 +1,75 @@
+@media only screen and (min-device-width:241px) and (max-device-width:2000px) {
+    body{
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /*min-height: 100vh;*/
+        
+    }
+    .box1 {
+    padding: 5%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+    }
+    .box1 p{
+        color:salmon;
+        font-size: 2rem;
+    }
+
+    .box2 {
+        text-align: center;
+    }
+
+    .box3 {
+        text-align: center;
+        font-size: small;
+        color:rgb(26, 146, 194);
+        line-height: 2em;
+    }
+
+    .button1 {
+        text-align: center;
+        width: 8em;
+        height: 3em;
+        background-color:steelblue;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    #upload {
+        display: none;
+    }
+
+    .button1:hover{
+        background-color:tomato;
+    }
+
+    .button1:active{
+        background-color: thistle;
+    }
+
+    .box4 {
+        text-align: center;
+        margin: 5%;
+    }
+
+    .button2 {
+        width: 8em;
+        height: 3em;
+        background-color:seagreen;
+        color:white;
+        font-size: 1rem;
+        
+    }
+
+    .button2:hover{
+        background-color:tomato;
+    }
+
+    .button2:active{
+        background-color: thistle;
+    }
+}
